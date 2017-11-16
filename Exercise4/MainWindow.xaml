@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:Exercise4"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Window.Resources>
+    <!--<Window.Resources>
         <Converters:BoolToImageConverter x:Key="BoolToImageConverter"/>
         <Converters:BoolToBrushConverter x:Key="BoolToBrushConverter"/>
         <Converters:IntToBrushConverter x:Key="IntToBrushConverter"/>
-    </Window.Resources>
+    </Window.Resources>-->
     <Window.DataContext>
         <Binding Mode="OneWay" Path="Main" Source=""/>
     </Window.DataContext>
